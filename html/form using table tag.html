@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       input{
+        padding: 9px;
+        margin: 10px;
+        padding-left: 30px;
+        margin-left: 10px;
+       }
+       h1{
+        margin-bottom:1px;
+        border-color: black;
+        border-style: inset;
+        width:auto ;
+        background-color: coral;
+        padding: 15px;
+       }
+       select{
+            padding: 9px;
+            margin: 10px;
+            padding-left: 30px;
+            margin-left: 10px;
+            width: 90%;
+           }
+        
+
+        .date{
+            padding: 9px;
+            margin: 10px;
+            padding-left: 30px;
+            margin-left: 10px;
+            width: 70%;
+        }
+        button{
+            
+            padding: 10px;
+            width: 10%;
+            background-color: lightpink;
+            
+        }
+
+        
+    </style>
+</head>
+<body>
+    <h1>Emergency Contact info</h1>
+    <table>
+        <tr>
+            <th>First Name:</th>
+            <td><input type="text" required></td>  
+            <td><u> <b>Emergency contact info</b></u></p></td>
+
+         </tr>
+         
+       <tr>
+        <th>Last name:</th>
+        <td><input type="text" required></td>
+        <td><b>Name:</b></td>
+        <td><input type="text" required></td>
+       </tr>
+
+       <tr>
+        <th>Gender:</th>
+        <td><select name="genter" id="male" required>
+            <option value="male">male</option>
+                <option value="female">female</option>
+            
+        </select></td>
+        <td><b>relationship:</b></td>
+        <td ><input type="text" required></td>
+       </tr>
+
+       <tr>
+        <th>Date of birth:</th>
+        <td><input type="date"  class="date" required></td>
+        <td><b>Address:</b></td>
+        <td><textarea name="" id="" cols="30" rows="8" required></textarea></td>
+
+       </tr>
+
+       <tr>
+           <th><u>Medical information</u></th>
+
+       </tr>
+
+       <tr>
+        <th>Hospital  preference:</th>
+        <td><input type="text" required></td>
+        <td><b>city:</b></td>
+        <td><input type="text" required></td>
+       </tr>
+
+       <tr>
+        <th>insurance company:</th>
+        <td><input type="text" required></td>
+        <td><b>state</b></td>
+        <td><select name="state" id="" required>
+            <option value="state">state</option>
+               <option value="maharastra">maharastra</option>
+                <option value="andhra pradesh">Andhra pradesh</option>
+        </select></td>
+       </tr>
+
+       <tr>
+        <th>policy number:</th>
+        <td><input type="number" required></td>
+        <td><b>country:</b></td>
+        <td><select name="country" id="">
+            <option value="india">india</option>
+            <option value="america">america</option>
+        </select></td>
+       </tr>
+       <tr>
+        <th>Physician's Name</th>
+        <td><input type="text"></td>
+        <td><b>Home Phone</b></td>
+        <td><input type="number"></td>
+       </tr>
+
+       <tr>
+        <th>Phone Number</th>
+        <td><input type="tel"></td>
+        <td><b>Work Phone</b></td>
+        <td><input type="tel"></td>
+       </tr>
+
+       <tr>
+        <th>Allergies</th>
+        <td><textarea name="" id="" cols="30" rows="8"></textarea></td>
+       </tr>
+       
+       
+    </table>
+        <center>
+        <button type="submit">submit</button>
+        <button type="Reset">Reset</button>
+    </center>
+ 
+</body>
+</html>

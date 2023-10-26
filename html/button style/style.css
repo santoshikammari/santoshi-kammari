@@ -1,0 +1,39 @@
+.subscribe{
+    background-color: red;
+    color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+.subscribe:hover{
+background-color:rgb(130, 57, 57);
+}
+.subscribe:active{
+background-color: rgb(197, 152, 152);
+}
+.join{
+background-color: aliceblue;
+color: blue;
+border-color: blue;
+transition: background-color 0.15;
+padding: 9px 20px;
+margin: 10px;
+border-radius: 5px;
+}
+.join:hover{
+background-color: blue;
+color: aliceblue;
+opacity: 0.9;
+}
+.tweet{
+background-color: rgb(58, 156, 218);
+color: white;
+border-radius: 20px;
+padding: 10px 20px;
+margin: 10px;
+border-color:rgb(58, 156, 218);
+}
+.tweet:hover{
+box-shadow:2px 2px 2px rgba(0,0,0,1);
+
+}

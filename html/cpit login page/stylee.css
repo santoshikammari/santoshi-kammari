@@ -1,0 +1,64 @@
+h1{
+
+    background-color: yellow;
+    color: black;
+    align-items: center;
+    padding: 10px;
+    border:3px solid yellowgreen ;
+    text-align:center
+    
+}
+.menu{
+    align-items: center;
+    padding:10px;
+    margin: 15px;
+    text-align: center;
+}
+a{
+
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    
+}
+form{
+    background-color:aquamarine;
+    padding: 20px;
+    margin:auto;
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input{
+    width:100%;
+    padding:5px;
+
+}
+button{
+    background-color: blue;
+    color:white ;
+    margin-top:10px;
+    width:50%;
+    border:10px solid blue;
+    align-items: center;
+}
+button:hover{
+    opacity: 0.5;
+    margin:10px;
+}
+a:hover{
+    opacity: 0.7;
+}
+.clabel{
+    font-size: 18px;
+    margin-top: 5px;
+    float: left;
+    align-items: left;
+    padding:20px;
+}
+img{
+    background-image: over;
+    align-items:left;
+    border: 3px solid red;
+}

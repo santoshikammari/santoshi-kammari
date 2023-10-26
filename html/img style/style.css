@@ -1,0 +1,12 @@
+
+div.picture{
+    width: 50%;
+    background-color: honeydew;
+    box-shadow: 0 0 4px 8px rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,1.9);
+    margin-bottom: 10%;
+}
+div.content{
+    text-align: center;
+    padding: 10px 20px;
+    
+}

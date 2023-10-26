@@ -1,0 +1,19 @@
+.container{
+    position:relative;
+    text-align: center;
+    color: white;
+}
+.centered{
+    position: absolute;
+    text-align: center;
+    font-size: 50px;
+    margin:0px;
+    color:white;
+    top: 2%;
+    left: 20%;
+    
+
+}
+
+
+

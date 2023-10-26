@@ -1,0 +1,10 @@
+                                            <tags>
+
+<html>:     we use this for knowing this is html program.
+<head>:     this tag define head portion and they contain imformation about document.
+<title>:    this is showing this is html document>
+<body>:     in body tag we write that imformation/content 
+            that content bowser wil show in front end.
+<img>:      this tag is empty tag using this tag we can incoiud img as well as in that we can write number of attribut like 1)src,2)width3)height4)align
+<h1>:       this tag use for  denoting head line.in that we can wrote h1 to h6 font-size . in that small is h6. and big is h1.
+<p>:          

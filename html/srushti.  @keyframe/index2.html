@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 150px;
+            height: 20px;
+            color: aliceblue;
+            background-color: blue;
+            padding: 30px;
+            position: relative;
+            animation: srumove 5s ease-in-out;
+        }
+        @keyframes srumove{
+           0%{top:0px;left:100px;background: red;}
+           25%{top:100px;left:100px;background: blue;}
+           50%{ top:100px;left:0px; background: pink;}
+           100%{top:0px;left:0px; background:black;}
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>.</h1>
+    </div>
+</body>
+</html>
